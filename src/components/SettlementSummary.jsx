@@ -6,7 +6,7 @@ import { StyledTitle } from "./AddExpenseForm"
 import { Button } from "react-bootstrap"
 import { toPng } from "html-to-image"
 import { useRef } from "react"
-import { ArrowRight, CloudDownload, Download, FileArrowDown } from "react-bootstrap-icons"
+import { Download } from "react-bootstrap-icons"
 
 const calculateMinimumTransaction = (expenses, members, amountPerPerson) => {
     const membersToPay = {}
